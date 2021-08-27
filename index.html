@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>HTML/CSS Practice</title> 
+<meta charset="UTF-8"> 
+<meta name="Home" content="width=device-width,initial-scale=1"> 
+<meta name="author" content="Sabrina Coppola"> 
+
+<style>
+
+body {
+	background-color: black;
+	border: 3px solid tan;
+	margin: 0;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #6E6C6C;
+}
+
+a:hover {
+	text-decoration: none;
+	font-size: 150%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+	padding: 30px;
+	maargin-top: 40px;
+	height: 1500px;}
+
+#intro {
+	color: white;
+	text-align: center;
+	font-family: courier;
+	font-size: 20px;
+}
+
+#paragraphs {
+	color: #f2f2f2;
+	text-align: left;
+	font-family: times new roman;
+	font-size: 14px;
+}
+
+#pics {
+	color: white;
+	text-align: center;
+	font-family: courier;
+	font-size: 20px;
+}
+
+#misc {
+	color: white;
+	text-align: left;
+	font-family: courier;
+	font-size: 20px;
+}
+
+#Haiku {
+	color: white;
+	text-align: left;
+	font-family: damascus;
+	font-size: 14px;
+}
+
+#bullets {
+	color: white;
+	text-align: left;
+	font: times new roman;
+	font-size: 14px;
+}
+
+.footer {
+	width: 100%;
+	background-color: #333;
+	color: #ddd;
+	text-align: left;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact Us</a>
+</div>
+
+<div class="main">
+	<div id="intro">
+		<h1>Practice Makes Acceptable</h1>
+		<h2>Welcome to my HTML/CSS practice page!</h2>
+		<h3>This is where I'll <strike>try to</strike> learn HTML and CSS.</h3>
+		<h5>Maybe not today, maybe not tomorrow, but soon and for the rest of my life.</h5>
+	</div>
+
+	<div id="paragraphs">
+	   <p>This is my <em>paragraph</em> emphasized.</p> 
+   	<p>This is my <strong>paragraph</strong> strong.</p>
+   	<p>This is my <i>paragraph</i> itaicized.</p>
+		<p>This is my <mark>paragraph</mark> marked.</p>
+		<p>This is my <small>paragraph</small> small.</p>
+		<p>This is my <strike>paragraph</strike> striked.</p>
+		<p>This is my <u>paragraph</u> underlined</p>
+		<p>This is my <ins>paragraph</ins> inserted.</p>
+		<p>This is my <sub>paragraph</sub> subscripted.</p>
+		<p>This is my <sup>paragraph</sup>  superscripted.</p>
+	</div>
+
+<hr></hr>
+
+	<div id="pics">
+		<h4>Pictures loaded from <i>file</i>:</h4>
+			<img src="Paola's Logo Vector PDF.pdf" alt="This is a pdf" height="150" width="200">
+					<h4>Pictures loaded from <i>internet</i>:</h4>
+						<img src="https://mason.gmu.edu/~kshiffl4/375/HTML_Tags.jpg" height="200" width="200">
+	</div>
+
+<hr></hr>
+
+	<div id="misc">
+		<h4>Misc. practice:</h4>
+		<div id="Haiku">
+			<p><br><u>A Haiku</u></br>Worker bees can leave</br>Even drones can fly away<br>The queen is their slave</br></p>
+		</div>
+		
+			<div id="bullets">
+				<dl>
+					<dt>Words of wisdom:</dt> 
+							<dd><q>Carpe diem.</q> - J.Keating (&#9829;RIP RW&#9829;)</dd> 
+							<dd><q>Do...or do not. There is no try.</q> - Yoda</dd> 
+							<dd><q><b><i>Never</b></i> tickle a sleeping dragon.</q> - Hogwarts moto</dd> 
+					</dl>
+			</div>
+	</div>
+	
+	<div class="footer">
+		<dl>
+			<dt>Help me internet, you're my only hope:</dt>
+			<dd><a href="https://html.com/#Creating_Your_First_HTML_Webpage">html.com</a></dd>
+			<dd><a href="https://www.geeksforgeeks.org/html-basics/">G4G</a></dd>  
+			<dd><a href="http://www.google.com">Google it</a></dd> 		</di>
+	</div>
+</div>			
+
+</body>
+</html>
