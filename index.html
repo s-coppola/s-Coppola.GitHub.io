@@ -50,7 +50,7 @@ a:hover {
 
 .intro {
 	overflow: hidden;
-	background-color: #333;
+	background-color: black;
 	position: fixed;
 	top: 70px;
 	width: 100%;
@@ -60,19 +60,33 @@ a:hover {
 img {
 	display: inline-block;
 	vertical-align: middle;
+ 	float: left;
+    width: 50%;
+    padding: 0px;
 }
 
 .info {
 	color: white;
-	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 30px;
+	line-height: 10px;
+    float: right;
+    width: 50%;
+    padding: 0px;
 }
 
 .news {
 	color: red;
 	font-size: 25px;
+	width: 100%;
+	background: black;
+	text-align: center;
+	font-family: dancingscript-regular,dancing script,cursive;
+	position: fixed;
+	top: 320px;
+	border: 2px;
+    padding: 10px;
+    float: center;
 }
 
 body {
@@ -85,20 +99,22 @@ body {
 	font-family: dancingscript-regular,dancing script,cursive;
 	font-size: 20px;
 	position: absolute;
-	top: 370px;
+	top: 400px;
+	border: 2px;
+	bottom: 150px;
+    padding: 10px;
+    float: center;
 }
 
 .footer {
 	overflow: hidden;
 	background-color: #333;
-	position: fixed;
+	position: relative;
 	top: 700px;
-	width: 100%;
 	text-align: center;
 }
 
 </style>
-
 </head>
 
 <div class="navbar">
@@ -113,15 +129,77 @@ body {
 	<div class="intro">
 		<img src="Paola's Logo.pdf" alt="Logo for Paola's, 128 N. Wayne Ave., Wayne, PA 19087" class="left" height="250" width="600"/>
 		<div class="info">
-			Closed on Mondays
-			<br>128 N. Wayne Ave.</br>
-			Wayne, PA 19087
-			<br>610.688.6898</br>
+			<p style="text-align: center; font-size: 24px;" class="font_8">
+                	<span style="font-size:24px;">
+                    	<span style="font-weight:bold;">128 North Wayne Ave.</span>
+                </span>
+                   </span>
+            </p>
+            
+            <p style="text-align: center; font-size: 24px;" class="font_8">
+            	<span class="color_10">
+                	<span style="font-size:24px;">
+                    	<span style="font-weight:bold;">Wayne, PA 19087</span>
+                </span>
+                   </span>
+            </p>
+            
+            <p style="text-align: center; font-size: 24px;" class="font_8">
+            	<span class="color_10">
+                	<span style="font-size:24px;">
+                    	<span style="font-weight:bold;">610.688.6898</span>
+                </span>
+                   </span>
+            </p>
+            
+            <h2 style="text-align: center; font-size: 30px;" class="font_8">
+            	<span class="color_29">
+                	<span style="font-size:30px;">
+                    	<span style="font-weight:bold;">Closed on Mondays</span>
+                </span>
+                   </span>
+            </h2>
+            
+            <p style="text-align: center; font-size: 12px;" class="font_8">
+            	<span class="color_21">
+                	<span style="font-size:12px;">
+                    	<span style="font-weight:bold;">HOURS OF OPERATION</span>
+                </span>
+                   </span>
+            </p>
+            
+            <p style="text-align: center; font-size: 12px;" class="font_8">
+            	<span class="color_21">
+                	<span style="font-size:12px;">
+                    	<span style="font-weight:bold;">TUESDAY - THURSDAY: 11 AM - 8 PM</span>
+                </span>
+                   </span>
+            </p>
+            
+            <p style="text-align: center; font-size: 12px;" class="font_8">
+            	<span class="color_21">
+                	<span style="font-size:12px;">
+                    	<span style="font-weight:bold;">SUNDAY: 11 AM - 8 PM</span>
+                </span>
+                   </span>
+            </p>
+            
+            <p style="text-align: center; font-size: 12px;" class="font_8">
+            	<span class="color_21">
+                	<span style="font-size:12px;">
+                    	<span style="font-weight:bold;">FRIDAY &amp; SATURDAY: 11AM - 9PM</span>
+                </span>
+                   </span>
+            </p>
+            
 		</div>
-<hr></hr>
-		<div class="news">We are open!</div>
-<hr></hr>
 	</div>
+
+ 	<div class="news">
+        <hr></hr>
+        We are open!
+        <hr></hr>
+        </div>
 
 <div class="main">
    <p>I grew up in a small town in Italy with eight siblings. Cooking has always been my passion. I remember getting up early with my mom to help make the dough for our bread, so by the time I would come home from school, it would be ready for us to deliver it to our neighbors. My passion for cooking is still there after all these years and continues to grow.<br>When my family immigrated to America, we set up our first pizzeria in Brooklyn, NY, where we remained for four years. We then began to explore other cities and states to learn to grow our business.</br>Finally, after all our efforts and years of work to build our reputation, we settled down in the beautiful family town of Wayne, PA and opened our location in 1997. After many years, our hard work has finally paid off and I am able to dedicate the renovations to my mother&rsquo;s lifelong dream. It may not have happened in her lifetime, but at least I was able to build our own brick oven in mine.</p> 
@@ -129,7 +207,6 @@ body {
 
 </body>
 
-<footer>
 	<div class="footer">
 		<dl>
 			<dt>Help me internet, you're my only hope:</dt>
