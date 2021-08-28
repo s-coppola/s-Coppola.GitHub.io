@@ -53,51 +53,39 @@ a:hover {
   color: black;
 }
 
-.main {
-	padding: 30px;
-	maargin-top: 40px;
-	height: 1500px;}
-
-#intro {
-	color: white;
-	text-align: center;
-	font-family: courier;
-	font-size: 20px;
+.intro {
+	margin: 40px;
+	position: fixed;
+	width: 100%;
+	background: black;
 }
 
-#paragraphs {
+img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.info {
+	color: white;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+.news {
+	color: red;
+	font-size: 25px;
+}
+
+.main	{
+	top: 10px;
+	margin: 10px;
+	padding: 10px;
 	color: #f2f2f2;
-	text-align: left;
-	font-family: times new roman;
-	font-size: 14px;
-}
-
-#pics {
-	color: white;
 	text-align: center;
-	font-family: courier;
+	font-family: dancingscript-regular,dancing script,cursive;
 	font-size: 20px;
-}
-
-#misc {
-	color: white;
-	text-align: left;
-	font-family: courier;
-	font-size: 20px;
-}
-
-#Haiku {
-	color: white;
-	text-align: left;
-	font-family: damascus;
-	font-size: 14px;
-}
-
-#bullets {
-	color: white;
-	text-align: left;
-	font: times new roman;
-	font-size: 14px;
 }
 
 .footer {
@@ -117,65 +105,35 @@ a:hover {
   <a href="#home">Home</a>
   <a href="#menu">Menu</a>
   <a href="#contact">Contact Us</a>
+  <a href="https://www.facebook.com/PaolasCucina"><img src="f_logo_RGB-White_1024.png" height="20" width="20"/></a>
 </div>
 
-<div class="main">
-	<div id="intro">
-		<h1>Practice Makes Acceptable</h1>
-		<h2>Welcome to my HTML/CSS practice page!</h2>
-		<h3>This is where I'll <strike>try to</strike> learn HTML and CSS.</h3>
-		<h5>Maybe not today, maybe not tomorrow, but soon...and for the rest of my life.</h5>
-		<h4>Date started: 8/27/2021</h4>
-	</div>
-
-	<div id="paragraphs">
-	   <p>This is my <em>paragraph</em> emphasized.</p> 
-   	<p>This is my <strong>paragraph</strong> strong.</p>
-   	<p>This is my <i>paragraph</i> itaicized.</p>
-		<p>This is my <mark>paragraph</mark> marked.</p>
-		<p>This is my <small>paragraph</small> small.</p>
-		<p>This is my <strike>paragraph</strike> striked.</p>
-		<p>This is my <u>paragraph</u> underlined</p>
-		<p>This is my <ins>paragraph</ins> inserted.</p>
-		<p>This is my <sub>paragraph</sub> subscripted.</p>
-		<p>This is my <sup>paragraph</sup>  superscripted.</p>
-	</div>
-
-<hr></hr>
-
-	<div id="pics">
-		<h4>Pictures loaded from <i>file</i>:</h4>
-			<img src="Paola's Logo Vector PDF.pdf" alt="Logo for Paola's, 128 N. Wayne Ave., Wayne, PA 19087" height="150" width="200">
-					<h4>Pictures loaded from <i>internet</i> and therefore do not belong to me:</h4>
-						<img src="https://mason.gmu.edu/~kshiffl4/375/HTML_Tags.jpg" height="200" width="200">
-	</div>
-
-<hr></hr>
-
-	<div id="misc">
-		<h4>Misc. practice:</h4>
-		<div id="Haiku">
-			<p><br><u>A Haiku</u></br>Worker bees can leave</br>Even drones can fly away<br>The queen is their slave</br>- C.P.</p>
+	<div class="intro">
+		<img src="Paola's Logo.pdf" alt="Logo for Paola's, 128 N. Wayne Ave., Wayne, PA 19087" class="left" height="250" width="600"/>
+		<div class="info">
+			Closed on Mondays
+			<br>128 N. Wayne Ave.</br>
+			Wayne, PA 19087
+			<br>610.688.6898</br>
 		</div>
-		
-			<div id="bullets">
-				<dl>
-					<dt>Words of wisdom:</dt> 
-							<dd><q>Carpe diem.</q> - J.Keating (&#9829;RIP RW&#9829;)</dd> 
-							<dd><q>Do...or do not. There is no try.</q> - Yoda</dd> 
-							<dd><q><b><i>Never</b></i> tickle a sleeping dragon.</q> - Hogwarts moto</dd> 
-					</dl>
-			</div>
+<hr></hr>
+		<div class="news">We are open!</div>
+<hr></hr>
 	</div>
+
+<div class="main">
+   <p>I grew up in a small town in Italy with eight siblings. Cooking has always been my passion. I remember getting up early with my mom to help make the dough for our bread, so by the time I would come home from school, it would be ready for us to deliver it to our neighbors. My passion for cooking is still there after all these years and continues to grow.<br>When my family immigrated to America, we set up our first pizzeria in Brooklyn, NY, where we remained for four years. We then began to explore other cities and states to learn to grow our business.</br>Finally, after all our efforts and years of work to build our reputation, we settled down in the beautiful family town of Wayne, PA and opened our location in 1997. After many years, our hard work has finally paid off and I am able to dedicate the renovations to my mother&rsquo;s lifelong dream. It may not have happened in her lifetime, but at least I was able to build our own brick oven in mine.</p> 
+</div>
+
+<hr></hr>
 	
-	<div class="footer">
-		<dl>
-			<dt>Help me internet, you're my only hope:</dt>
+<div class="footer">
+	<dl>
+		<dt>Help me internet, you're my only hope:</dt>
 			<dd><a href="https://html.com/#Creating_Your_First_HTML_Webpage">html.com</a></dd>
 			<dd><a href="https://www.geeksforgeeks.org/html-basics/">G4G</a></dd>  
 			<dd><a href="http://www.google.com">Google it</a></dd> 		</di>
 	</div>
-</div>			
 
 </body>
 </html>
